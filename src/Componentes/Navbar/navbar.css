@@ -34,12 +34,12 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 650px) {
   .navbar > a {
-    font-size: 7vw;
+    font-size: 7.5vw;
   }
   .navbar {
-    height: 15vw;
+    height: 20vw;
     display: flex;
     justify-content: center;
   }
