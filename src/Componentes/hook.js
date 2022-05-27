@@ -19,7 +19,7 @@ export default function Pagination({ json }) {
     }
 
     return () => clearTimeout(timer);
-  }, [current, setItems, json, isFakeLoading]);
+  }, [current, setItems, json]);
   console.log(current);
   return { setProjects, current, items, isFakeLoading };
 }
