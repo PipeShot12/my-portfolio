@@ -81,6 +81,9 @@ h2 {
     height: 60vw;
     object-fit: cover;
   }
+  .border {
+    transition: 100ms ease-out outline;
+  }
   .border:hover {
     transform: scale(1);
     font-weight: bold;
@@ -129,6 +132,9 @@ h2 {
   .loadProjects {
     height: 12vw;
     width: 90%;
+    transition: 100ms ease-out color;
+  }
+  .loadProjects:hover {
     transform: scale(1);
   }
   .loadProjects > p {

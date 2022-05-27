@@ -15,7 +15,7 @@ export default function Pagination({ json }) {
         if (!isFakeLoading) {
           setItems((prev) => [...prev, ...json.slice(items.length, current)]);
         }
-      }, 200);
+      }, 500);
     }
 
     return () => clearTimeout(timer);
