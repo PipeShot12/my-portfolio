@@ -1,0 +1,129 @@
+.images {
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+.projects {
+  background-color: #0f4c75;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 2vw;
+  padding-bottom: 100px;
+  border: none;
+}
+.project-tile {
+  font-size: 2vw;
+}
+h2 {
+  text-decoration: underline;
+  margin: 6vw 0;
+}
+.ajust {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35vw, 1fr));
+  grid-gap: 4vw;
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+}
+.ajust p {
+  background: #1b262c;
+  padding: 3vw 0;
+  margin: 0px auto;
+}
+.border {
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.5);
+}
+.border a {
+  text-decoration: none;
+}
+.border:hover {
+  transform: scale(1.05);
+  font-weight: bold;
+  outline: 2px #bbe1fa solid;
+  position: relative;
+}
+.loadProjects {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 5vw;
+  height: 4vw;
+  color: white;
+  background-color: #082c44;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 8px 3px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  outline: 1px solid #3282b8;
+  border: none;
+}
+.loadProjects > p {
+  font-weight: bold;
+  font-size: 2vw;
+}
+/* ============== */
+@media (max-width: 1025px) {
+  .ajust {
+    width: 90vw;
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  }
+  .images {
+    width: 100%;
+    height: 60vw;
+    object-fit: cover;
+  }
+  .border:hover {
+    transform: scale(1);
+    font-weight: bold;
+    border: none;
+    outline: 2px #bbe1fa solid;
+    position: relative;
+  }
+  .projects {
+    font-size: 2em;
+  }
+  .projects > h2 {
+    margin: 10vw 0;
+  }
+  .project-tile {
+    font-size: 1.2em;
+  }
+  .loadProjects {
+    width: 70%;
+    height: 6vw;
+  }
+}
+@media (max-width: 650px) {
+  .projects {
+    font-size: 0.9em;
+    line-height: 1;
+  }
+  .project-tile {
+    font-size: 1.2em;
+    line-height: 1;
+  }
+  .ajust {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    width: 85%;
+  }
+  .images {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .loadProjects {
+    height: 12vw;
+    width: 90%;
+  }
+  .loadProjects > p {
+    font-weight: bold;
+    font-size: 8vw;
+  }
+}
