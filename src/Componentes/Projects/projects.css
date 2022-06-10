@@ -98,7 +98,7 @@ h2 {
     margin: 10vw 0;
   }
   .project-tile {
-    font-size: 5.5vw;
+    font-size: 3.5vw;
   }
   .loadProjects {
     width: 70%;
@@ -112,7 +112,7 @@ h2 {
     line-height: 1;
   }
   .project-tile {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1;
   }
   .ajust {
